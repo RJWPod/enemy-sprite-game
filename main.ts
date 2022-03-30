@@ -11,7 +11,6 @@ input.onGesture(Gesture.LogoDown, function () {
     Player.change(LedSpriteProperty.Y, -1)
 })
 let Player: game.LedSprite = null
-basic.showString("X = Game over")
 let Enemy = game.createSprite(randint(0, 5), randint(0, 5))
 Player = game.createSprite(2, 2)
 basic.forever(function () {
